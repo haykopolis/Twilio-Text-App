@@ -3,7 +3,7 @@ from twilio.rest import  Client
 from credentials import account_sid, auth_token, my_cell, my_twilio
 
 # Find at https://twilio.com/user/account
-client = TwilioRestClient(account_sid, auth_token)
+client = Client(account_sid, auth_token)
 
 my_msg = "I Love Twilio!"
 
